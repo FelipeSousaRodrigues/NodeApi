@@ -10,6 +10,9 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
-  }
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
+  },
+  "repository": "https://github.com/FelipeSousaRodrigues/NodeApi.git",
+  "author": "FelipeSousaRodrigues <felipe.sousa1904@gmail.com>"
 }

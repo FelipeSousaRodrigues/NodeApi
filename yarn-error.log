@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add nodemon -D
+
+PATH: 
+  /home/felipe/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.8.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+
+npm manifest: 
+  {
+    "name": "api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.2"
+    },
+    "repository": "https://github.com/FelipeSousaRodrigues/NodeApi.git",
+    "author": "FelipeSousaRodrigues <felipe.sousa1904@gmail.com>"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
